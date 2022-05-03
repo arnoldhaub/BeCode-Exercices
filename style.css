@@ -1,0 +1,132 @@
+body{
+    font-family: serif;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(178, 216, 255));
+    background: radial-gradient(rgb(255, 255, 255), rgb(178, 216, 255));
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+
+
+}
+blockquote{
+    width: 50%;
+    font-size: 160%;
+    background-color: whitesmoke;
+    border-left: firebrick 3px solid;
+    padding-left: 30px;
+    margin: 80px 0 80px 0;
+    margin: auto;
+}
+mark {
+    background-color: transparent;
+}
+.good{
+    color:darkgreen;
+    text-transform: capitalize;
+   
+}
+.bad {
+    color:darkred;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: serif;
+    word-spacing: 150%;
+    font-size: 16px;
+    color: #333;
+}
+.villagers {
+    border-left: darkgoldenrod 3px solid;
+    padding-left: 15px;
+    margin-left: 15px;
+    background-color: white;
+    opacity: 0.8;
+    font-style: italic ;
+    
+}
+
+.farmer {
+    border-left: darkolivegreen 3px solid;
+    padding-left: 15px;
+    margin-left: 15px;
+    background-color: white;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+a{
+    color:cadetblue;
+}
+
+a:hover{
+    color:aquamarine;
+}
+a:visited{
+    color:darkcyan;
+}
+
+header h1{
+    background-color: goldenrod;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border: rgb(112, 112, 112) 1px solid;
+}
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+th {
+    background-color: goldenrod;
+    color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+   
+}
+tr:nth-child(odd) {
+    background-color: rgb(112, 112, 112);
+   
+}
+li {
+    margin-top: 8px;;
+}
+li:first-child {
+    background: url("bien.png") no-repeat left;
+    height: 50px;
+    padding-left: 50px; 
+    line-height: 60px;    
+}
+
+li:nth-child(2) {
+    background: url("mal.png") no-repeat left;
+    height: 50px;
+    padding-left: 50px; 
+    line-height: 60px;    
+}
+li:nth-child(3) {
+    background: url("chat.png") no-repeat left;
+    height: 50px;
+    padding-left: 50px; 
+    line-height: 60px;    
+}
+
+p:first-child{
+    font-weight: bold;
+}
+section {
+    display: flex;
+}
+article {
+    flex: 200px;
+    
+}
+img {
+    max-width:100%;
+}
