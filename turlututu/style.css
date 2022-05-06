@@ -1,0 +1,42 @@
+html {
+    background-color: white;
+    color: white;
+    width: 100%; 
+    margin: auto;
+}
+header{
+    background-color: #1e93cc;
+}
+.header{
+    background-color: #333333;
+}
+
+section{
+    background-color: #1e93cc;
+}
+
+.sponsors {
+    background-color: #eeeeee;
+    color: #aba9a8;
+}
+
+button{
+    background-color: #165882;
+    border: 1px solid white;
+}
+button:last-child{
+    background-color: #e99002;
+}
+
+footer{
+    background-color: #222222;
+}
+h1:first-child{
+    color: black;
+}
+h1:last-child {
+    color: #6f6f78;
+}
+article p{
+    color: #c1dee0;
+}
